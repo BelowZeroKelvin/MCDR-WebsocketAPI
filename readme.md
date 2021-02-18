@@ -9,7 +9,7 @@
 首先，你需要将 `WebsocketAPI.py` 和 `websocket_api` 目录 放入 `plugin` 目录下  
 然后，在 `PLUGIN_METADATA` 中添加该 API 的依赖
 
-```json
+```
 {
     // ...
     "dependencies": {
@@ -99,7 +99,7 @@ interface = websocket_api.register(event_name, event_handler)
 
 -   该数据需要进行 JSON 序列化处理
 
-```json
+```
 {
     "type": "event",
     "event": "{event_name}", // 事件名称

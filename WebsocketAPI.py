@@ -15,7 +15,7 @@ PLUGIN_METADATA = {
     'id': 'websocket_api',
     'version': '1.0.0',
     'name': 'WebsocketAPI',
-    'description': 'Enable other plugins to use WebSocket',
+    'description': 'Provide websocket support for other plugins',
     'author': 'ZeroKelvin',
     'link': 'https://github.com/BelowZeroKelvin/MCDR-WebsocketAPI',
     'dependencies': {
